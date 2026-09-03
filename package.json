@@ -1,0 +1,17 @@
+{
+  "name": "cypress-data-driven-testing",
+  "version": "1.0.0",
+  "description": "Cypress E2E suite with custom commands, fixtures, and network stubbing across saucedemo.com and demoqa.com",
+  "private": true,
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:run": "cypress run",
+    "cy:run:chrome": "cypress run --browser chrome",
+    "test": "cypress run",
+    "report:open": "open cypress/reports/html/index.html || start cypress/reports/html/index.html"
+  },
+  "devDependencies": {
+    "cypress": "^13.15.0",
+    "cypress-mochawesome-reporter": "^3.8.2"
+  }
+}
