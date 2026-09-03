@@ -1,0 +1,3 @@
+This is a dummy file used by form.spec.js to test the file upload field
+on the demoqa.com Practice Form. Its content doesn't matter - only that
+a real file gets attached to the #uploadPicture input.

@@ -1,0 +1,33 @@
+{
+  "booksSuccess": {
+    "books": [
+      {
+        "isbn": "9781449325862",
+        "title": "Git Pocket Guide",
+        "subTitle": "A Working Introduction",
+        "author": "Richard E. Silverman",
+        "publish_date": "2013-08-02T00:00:00.000Z",
+        "publisher": "O'Reilly Media"
+      },
+      {
+        "isbn": "9781449331818",
+        "title": "Learning JavaScript Design Patterns",
+        "subTitle": "A JavaScript and jQuery Developer's Guide",
+        "author": "Addy Osmani",
+        "publish_date": "2012-07-01T00:00:00.000Z",
+        "publisher": "O'Reilly Media"
+      }
+    ]
+  },
+  "booksEmpty": {
+    "books": []
+  },
+  "serverError500": {
+    "code": "500",
+    "message": "Internal Server Error"
+  },
+  "unauthorized401": {
+    "code": "1200",
+    "message": "User authorization failed."
+  }
+}

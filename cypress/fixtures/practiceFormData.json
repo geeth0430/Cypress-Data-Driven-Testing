@@ -1,0 +1,25 @@
+{
+  "validSubmission": {
+    "firstName": "Ada",
+    "lastName": "Lovelace",
+    "email": "ada.lovelace@example.com",
+    "gender": "Female",
+    "mobileNumber": "9876543210",
+    "dateOfBirthDay": "15",
+    "dateOfBirthMonth": "June",
+    "dateOfBirthYear": "1990",
+    "subjects": ["Maths", "Computer Science"],
+    "hobbies": ["Reading", "Music"],
+    "currentAddress": "123 Analytical Engine Lane, London",
+    "state": "NCR",
+    "city": "Delhi",
+    "uploadFileName": "sample-upload.txt"
+  },
+  "invalidSubmission": {
+    "firstNameMissing": true,
+    "lastNameMissing": true,
+    "invalidEmail": "not-an-email",
+    "invalidMobileNumber": "123",
+    "mobileNumberTooShort": true
+  }
+}
